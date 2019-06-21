@@ -1,0 +1,158 @@
+\hypertarget{class_tracker}{}\section{Tracker Class Reference}
+\label{class_tracker}\index{Tracker@{Tracker}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tracker_adf214393a14e8bf23de2fc8231e239ec}{Tracker}} ()
+\item 
+void \mbox{\hyperlink{class_tracker_a46d18bb34e13db3c607929611a397df2}{set\+Pupil\+Position}} (int x\+In, int y\+In)
+\item 
+void \mbox{\hyperlink{class_tracker_a93d4eb33c16df57689378918ccd606a5}{set\+Calibration\+Points}} (int x\+In, int y\+In, int id)
+\item 
+void \mbox{\hyperlink{class_tracker_a80e4f6083c23a2bcacea30a25bbe736d}{calculate\+New\+Coords}} ()
+\item 
+void \mbox{\hyperlink{class_tracker_af7d25440cc04a4663a7d09052efa7190}{move\+Cursor}} ()
+\item 
+void \mbox{\hyperlink{class_tracker_a4757c0a8b374190c2aa41cb8e4fad132}{set\+Dimensions}} (int x, int y)
+\item 
+\mbox{\hyperlink{class_tracker_a0ed1e23312cfe7fcfe5f2ac2abd69163}{$\sim$\+Tracker}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_tracker_ae1b2c9361fa21a9736c7ae958d663315}{cursorX}}
+\item 
+int \mbox{\hyperlink{class_tracker_aa4d4bd44e62ea5012119e6d72d6143f5}{cursorY}}
+\item 
+int \mbox{\hyperlink{class_tracker_aa25c70b48f8840428e6e2abfd080acfc}{rawX}}
+\item 
+int \mbox{\hyperlink{class_tracker_a5d10e475635c7cfb3063ded1f85734c0}{rawY}}
+\item 
+int \mbox{\hyperlink{class_tracker_ad56bff4ed71f5371d9de206996dc20ba}{factorX}}
+\item 
+int \mbox{\hyperlink{class_tracker_a119940aac1475ea8b63ca1b4e9b40617}{factorY}}
+\item 
+int \mbox{\hyperlink{class_tracker_a1defe6c2a0f835d76a99b95814492975}{dimensionY}}
+\item 
+int \mbox{\hyperlink{class_tracker_a08f50bf17f76f0841d6611d5f9f00a2d}{dimensionX}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tracker_adf214393a14e8bf23de2fc8231e239ec}\label{class_tracker_adf214393a14e8bf23de2fc8231e239ec}} 
+\index{Tracker@{Tracker}!Tracker@{Tracker}}
+\index{Tracker@{Tracker}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{Tracker()}{Tracker()}}
+{\footnotesize\ttfamily Tracker\+::\+Tracker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_tracker}{Tracker}} object constructor \mbox{\Hypertarget{class_tracker_a0ed1e23312cfe7fcfe5f2ac2abd69163}\label{class_tracker_a0ed1e23312cfe7fcfe5f2ac2abd69163}} 
+\index{Tracker@{Tracker}!````~Tracker@{$\sim$\+Tracker}}
+\index{````~Tracker@{$\sim$\+Tracker}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{$\sim$\+Tracker()}{~Tracker()}}
+{\footnotesize\ttfamily Tracker\+::$\sim$\+Tracker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_tracker}{Tracker}} object destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tracker_a80e4f6083c23a2bcacea30a25bbe736d}\label{class_tracker_a80e4f6083c23a2bcacea30a25bbe736d}} 
+\index{Tracker@{Tracker}!calculate\+New\+Coords@{calculate\+New\+Coords}}
+\index{calculate\+New\+Coords@{calculate\+New\+Coords}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{calculate\+New\+Coords()}{calculateNewCoords()}}
+{\footnotesize\ttfamily void Tracker\+::calculate\+New\+Coords (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This is actual mapping function which will calculate coordinates from pupil on to screen cursor using calibration data \mbox{\Hypertarget{class_tracker_af7d25440cc04a4663a7d09052efa7190}\label{class_tracker_af7d25440cc04a4663a7d09052efa7190}} 
+\index{Tracker@{Tracker}!move\+Cursor@{move\+Cursor}}
+\index{move\+Cursor@{move\+Cursor}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{move\+Cursor()}{moveCursor()}}
+{\footnotesize\ttfamily void Tracker\+::move\+Cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This function moves the cursor to a newly calculated points \mbox{\Hypertarget{class_tracker_a93d4eb33c16df57689378918ccd606a5}\label{class_tracker_a93d4eb33c16df57689378918ccd606a5}} 
+\index{Tracker@{Tracker}!set\+Calibration\+Points@{set\+Calibration\+Points}}
+\index{set\+Calibration\+Points@{set\+Calibration\+Points}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{set\+Calibration\+Points()}{setCalibrationPoints()}}
+{\footnotesize\ttfamily void Tracker\+::set\+Calibration\+Points (\begin{DoxyParamCaption}\item[{int}]{x\+In,  }\item[{int}]{y\+In,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+gets positions of pupil while in calibration and stores them in coords 
+\begin{DoxyParams}{Parameters}
+{\em x\+In,y\+In,id} & coordinates of the pupil calibrating for point numbered by id \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tracker_a4757c0a8b374190c2aa41cb8e4fad132}\label{class_tracker_a4757c0a8b374190c2aa41cb8e4fad132}} 
+\index{Tracker@{Tracker}!set\+Dimensions@{set\+Dimensions}}
+\index{set\+Dimensions@{set\+Dimensions}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{set\+Dimensions()}{setDimensions()}}
+{\footnotesize\ttfamily void Tracker\+::set\+Dimensions (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Get dimension of current camera frame 
+\begin{DoxyParams}{Parameters}
+{\em x,y} & width and height of the camera frame \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tracker_a46d18bb34e13db3c607929611a397df2}\label{class_tracker_a46d18bb34e13db3c607929611a397df2}} 
+\index{Tracker@{Tracker}!set\+Pupil\+Position@{set\+Pupil\+Position}}
+\index{set\+Pupil\+Position@{set\+Pupil\+Position}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{set\+Pupil\+Position()}{setPupilPosition()}}
+{\footnotesize\ttfamily void Tracker\+::set\+Pupil\+Position (\begin{DoxyParamCaption}\item[{int}]{x\+In,  }\item[{int}]{y\+In }\end{DoxyParamCaption})}
+
+This function will get current cooridnates of the pupil to be used in cursor location calculation 
+\begin{DoxyParams}{Parameters}
+{\em x\+In,y\+In} & Current coordinates of the pupil centre \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_tracker_ae1b2c9361fa21a9736c7ae958d663315}\label{class_tracker_ae1b2c9361fa21a9736c7ae958d663315}} 
+\index{Tracker@{Tracker}!cursorX@{cursorX}}
+\index{cursorX@{cursorX}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{cursorX}{cursorX}}
+{\footnotesize\ttfamily int Tracker\+::cursorX\hspace{0.3cm}{\ttfamily [private]}}
+
+Current X coordinate of the cursor \mbox{\Hypertarget{class_tracker_aa4d4bd44e62ea5012119e6d72d6143f5}\label{class_tracker_aa4d4bd44e62ea5012119e6d72d6143f5}} 
+\index{Tracker@{Tracker}!cursorY@{cursorY}}
+\index{cursorY@{cursorY}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{cursorY}{cursorY}}
+{\footnotesize\ttfamily int Tracker\+::cursorY\hspace{0.3cm}{\ttfamily [private]}}
+
+Current Y coordinate of the cursor \mbox{\Hypertarget{class_tracker_a08f50bf17f76f0841d6611d5f9f00a2d}\label{class_tracker_a08f50bf17f76f0841d6611d5f9f00a2d}} 
+\index{Tracker@{Tracker}!dimensionX@{dimensionX}}
+\index{dimensionX@{dimensionX}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{dimensionX}{dimensionX}}
+{\footnotesize\ttfamily int Tracker\+::dimensionX\hspace{0.3cm}{\ttfamily [private]}}
+
+Height of the camera frame \mbox{\Hypertarget{class_tracker_a1defe6c2a0f835d76a99b95814492975}\label{class_tracker_a1defe6c2a0f835d76a99b95814492975}} 
+\index{Tracker@{Tracker}!dimensionY@{dimensionY}}
+\index{dimensionY@{dimensionY}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{dimensionY}{dimensionY}}
+{\footnotesize\ttfamily int Tracker\+::dimensionY\hspace{0.3cm}{\ttfamily [private]}}
+
+Width of the camera frame \mbox{\Hypertarget{class_tracker_ad56bff4ed71f5371d9de206996dc20ba}\label{class_tracker_ad56bff4ed71f5371d9de206996dc20ba}} 
+\index{Tracker@{Tracker}!factorX@{factorX}}
+\index{factorX@{factorX}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{factorX}{factorX}}
+{\footnotesize\ttfamily int Tracker\+::factorX\hspace{0.3cm}{\ttfamily [private]}}
+
+Scale factor for X axis \mbox{\Hypertarget{class_tracker_a119940aac1475ea8b63ca1b4e9b40617}\label{class_tracker_a119940aac1475ea8b63ca1b4e9b40617}} 
+\index{Tracker@{Tracker}!factorY@{factorY}}
+\index{factorY@{factorY}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{factorY}{factorY}}
+{\footnotesize\ttfamily int Tracker\+::factorY\hspace{0.3cm}{\ttfamily [private]}}
+
+Scale factor for y axis \mbox{\Hypertarget{class_tracker_aa25c70b48f8840428e6e2abfd080acfc}\label{class_tracker_aa25c70b48f8840428e6e2abfd080acfc}} 
+\index{Tracker@{Tracker}!rawX@{rawX}}
+\index{rawX@{rawX}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{rawX}{rawX}}
+{\footnotesize\ttfamily int Tracker\+::rawX\hspace{0.3cm}{\ttfamily [private]}}
+
+Current X coordinate of the pupil \mbox{\Hypertarget{class_tracker_a5d10e475635c7cfb3063ded1f85734c0}\label{class_tracker_a5d10e475635c7cfb3063ded1f85734c0}} 
+\index{Tracker@{Tracker}!rawY@{rawY}}
+\index{rawY@{rawY}!Tracker@{Tracker}}
+\subsubsection{\texorpdfstring{rawY}{rawY}}
+{\footnotesize\ttfamily int Tracker\+::rawY\hspace{0.3cm}{\ttfamily [private]}}
+
+Current y coordinate of the pupil 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Gaze\+Track\+G\+U\+I/Tracker.\+h\item 
+F\+:/\+Gaze\+Track\+G\+U\+I/Tracker.\+cpp\end{DoxyCompactItemize}

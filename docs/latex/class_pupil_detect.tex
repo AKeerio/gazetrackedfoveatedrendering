@@ -1,0 +1,279 @@
+\hypertarget{class_pupil_detect}{}\section{Pupil\+Detect Class Reference}
+\label{class_pupil_detect}\index{Pupil\+Detect@{Pupil\+Detect}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pupil_detect_aa1ace17fac0af12bee24ca0413cc59a0}{Pupil\+Detect}} ()
+\item 
+\mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} \mbox{\hyperlink{class_pupil_detect_a95abbcaf36e31ea938ffdbc3402a481a}{get\+Pupil\+Position}} ()
+\item 
+\mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} $\ast$ \mbox{\hyperlink{class_pupil_detect_a41e24f18271f8395b1ab5043d70c03ad}{get\+Coordinates}} ()
+\item 
+\mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} \mbox{\hyperlink{class_pupil_detect_ae2338ef12da7fd0a0c2f668e25dbec54}{get\+Frame\+Dimensions}} ()
+\item 
+cv\+::\+Mat \mbox{\hyperlink{class_pupil_detect_a09f63f95f480233d90a648e0a61c8abb}{get\+Original\+Image}} (cv\+::\+Video\+Capture cap)
+\item 
+cv\+::\+Mat \mbox{\hyperlink{class_pupil_detect_af770df91c51d99bdd1a282e8b9fb6f1b}{get\+Processed\+Frame}} ()
+\item 
+void \mbox{\hyperlink{class_pupil_detect_aef0256a07774377932e949f2ba460fde}{init\+Calibration}} ()
+\item 
+void \mbox{\hyperlink{class_pupil_detect_a6c3419d438fde03cc460597257e05446}{detect\+Pupil}} (cv\+::\+Video\+Capture capture)
+\item 
+void \mbox{\hyperlink{class_pupil_detect_a59eaecc4b0dfb1c380d3c5d5ebf806f0}{set\+Video\+Status}} (bool \mbox{\hyperlink{class_pupil_detect_af956995e72f4c348ae4056aba2112e2b}{play}})
+\item 
+void \mbox{\hyperlink{class_pupil_detect_a22dc3e6f1496e1f0a79c61433f062cf0}{set\+Coordinates}} (int id)
+\item 
+void \mbox{\hyperlink{class_pupil_detect_ab1bc03f4007d91e575b349659119c70a}{find\+Eye}} ()
+\item 
+void \mbox{\hyperlink{class_pupil_detect_a116fb58487a120ee59642c6e97d77134}{set\+Threshold}} (int threshold\+In)
+\item 
+void \mbox{\hyperlink{class_pupil_detect_a38b91dc58b1a408e7ca081dac2c208bb}{set\+Max\+Area}} (int max\+Area\+In)
+\item 
+void \mbox{\hyperlink{class_pupil_detect_aa933cccabd0866e4fa1aee000532cb29}{set\+Min\+Area}} (int min\+Area\+In)
+\item 
+\mbox{\hyperlink{class_pupil_detect_af97e965d47623069188ffdf793248077}{$\sim$\+Pupil\+Detect}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pupil_detect_a3aa92fd80cf4ae3084ec8a04ba7398a3}\label{class_pupil_detect_a3aa92fd80cf4ae3084ec8a04ba7398a3}} 
+\mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} {\bfseries position}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_pupil_detect_ab852b491f3da3294e89d25777653e20f}{find\+Contours}} (cv\+::\+Mat \mbox{\hyperlink{class_pupil_detect_ad2b693a118fb991ea45cb8fb83dd0f63}{threshold\+Frame}})
+\item 
+void \mbox{\hyperlink{class_pupil_detect_a0ee35bec8dee73602288be1e95ab7b22}{apply\+Threshold}} (int thresh\+Hold\+Intensity)
+\item 
+void \mbox{\hyperlink{class_pupil_detect_aa1e4390aead747da32a2f1aaf077da68}{draw\+Contours}} (std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$$>$ \mbox{\hyperlink{class_pupil_detect_a28325d88d52b09e78d25f17b3d898aeb}{contours}})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{class_pupil_detect_a2573a2415b451c876ab47a0ef016ec18}{current\+Frame}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{class_pupil_detect_ad2b693a118fb991ea45cb8fb83dd0f63}{threshold\+Frame}}
+\item 
+std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$ $>$ \mbox{\hyperlink{class_pupil_detect_a28325d88d52b09e78d25f17b3d898aeb}{contours}}
+\item 
+std\+::vector$<$ cv\+::\+Rect $>$ \mbox{\hyperlink{class_pupil_detect_aee60f1bd292f20e41057139483c9d940}{eye}}
+\item 
+bool \mbox{\hyperlink{class_pupil_detect_af956995e72f4c348ae4056aba2112e2b}{play}}
+\item 
+int \mbox{\hyperlink{class_pupil_detect_a0a13ac6ad9894befc3da11ef02add74f}{threshold\+Intensity}}
+\item 
+int \mbox{\hyperlink{class_pupil_detect_a04fb7c5b3619d86b2f34ca90b56935e6}{max\+Area}}
+\item 
+int \mbox{\hyperlink{class_pupil_detect_ad1aa1a502f314a9dbdcfbb784cf14944}{min\+Area}}
+\item 
+int \mbox{\hyperlink{class_pupil_detect_a6fc0c70df2b083d7c24be0a4dff9d7a5}{counter}}
+\item 
+bool \mbox{\hyperlink{class_pupil_detect_ad4192b7bc071abfed746e463f383b866}{is\+Calibrating}}
+\item 
+double \mbox{\hyperlink{class_pupil_detect_a2649d7093083c33607bd412707773a51}{to\+Delay}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_pupil_detect_aa1ace17fac0af12bee24ca0413cc59a0}\label{class_pupil_detect_aa1ace17fac0af12bee24ca0413cc59a0}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!Pupil\+Detect@{Pupil\+Detect}}
+\index{Pupil\+Detect@{Pupil\+Detect}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{Pupil\+Detect()}{PupilDetect()}}
+{\footnotesize\ttfamily Pupil\+Detect\+::\+Pupil\+Detect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of pupil Object \mbox{\Hypertarget{class_pupil_detect_af97e965d47623069188ffdf793248077}\label{class_pupil_detect_af97e965d47623069188ffdf793248077}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!````~Pupil\+Detect@{$\sim$\+Pupil\+Detect}}
+\index{````~Pupil\+Detect@{$\sim$\+Pupil\+Detect}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{$\sim$\+Pupil\+Detect()}{~PupilDetect()}}
+{\footnotesize\ttfamily Pupil\+Detect\+::$\sim$\+Pupil\+Detect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_pupil_detect}{Pupil\+Detect}} Object destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pupil_detect_a0ee35bec8dee73602288be1e95ab7b22}\label{class_pupil_detect_a0ee35bec8dee73602288be1e95ab7b22}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!apply\+Threshold@{apply\+Threshold}}
+\index{apply\+Threshold@{apply\+Threshold}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{apply\+Threshold()}{applyThreshold()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::apply\+Threshold (\begin{DoxyParamCaption}\item[{int}]{thresh\+Hold\+Intensity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Applies desired threshold to current frame \mbox{\Hypertarget{class_pupil_detect_a6c3419d438fde03cc460597257e05446}\label{class_pupil_detect_a6c3419d438fde03cc460597257e05446}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!detect\+Pupil@{detect\+Pupil}}
+\index{detect\+Pupil@{detect\+Pupil}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{detect\+Pupil()}{detectPupil()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::detect\+Pupil (\begin{DoxyParamCaption}\item[{cv\+::\+Video\+Capture}]{capture }\end{DoxyParamCaption})}
+
+Puts together all funcitons in order to detect pupil \mbox{\Hypertarget{class_pupil_detect_aa1e4390aead747da32a2f1aaf077da68}\label{class_pupil_detect_aa1e4390aead747da32a2f1aaf077da68}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!draw\+Contours@{draw\+Contours}}
+\index{draw\+Contours@{draw\+Contours}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{draw\+Contours()}{drawContours()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::draw\+Contours (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ cv\+::\+Point $>$$>$}]{contours }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draws the contours onto the frame for debugging purposes To find the center of each contour it finds their center of masses first Also draw the points acquired during calibration \mbox{\Hypertarget{class_pupil_detect_ab852b491f3da3294e89d25777653e20f}\label{class_pupil_detect_ab852b491f3da3294e89d25777653e20f}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!find\+Contours@{find\+Contours}}
+\index{find\+Contours@{find\+Contours}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{find\+Contours()}{findContours()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::find\+Contours (\begin{DoxyParamCaption}\item[{cv\+::\+Mat}]{threshold\+Frame }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Finds the contours in current frame and stores them in a vector object \mbox{\Hypertarget{class_pupil_detect_ab1bc03f4007d91e575b349659119c70a}\label{class_pupil_detect_ab1bc03f4007d91e575b349659119c70a}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!find\+Eye@{find\+Eye}}
+\index{find\+Eye@{find\+Eye}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{find\+Eye()}{findEye()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::find\+Eye (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Isolate the region where eye is detected \mbox{\Hypertarget{class_pupil_detect_a41e24f18271f8395b1ab5043d70c03ad}\label{class_pupil_detect_a41e24f18271f8395b1ab5043d70c03ad}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!get\+Coordinates@{get\+Coordinates}}
+\index{get\+Coordinates@{get\+Coordinates}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{get\+Coordinates()}{getCoordinates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} $\ast$ Pupil\+Detect\+::get\+Coordinates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the array of coordinates acquired during calibration \mbox{\Hypertarget{class_pupil_detect_ae2338ef12da7fd0a0c2f668e25dbec54}\label{class_pupil_detect_ae2338ef12da7fd0a0c2f668e25dbec54}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!get\+Frame\+Dimensions@{get\+Frame\+Dimensions}}
+\index{get\+Frame\+Dimensions@{get\+Frame\+Dimensions}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{get\+Frame\+Dimensions()}{getFrameDimensions()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} Pupil\+Detect\+::get\+Frame\+Dimensions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the width and height or the camera frame \mbox{\Hypertarget{class_pupil_detect_a09f63f95f480233d90a648e0a61c8abb}\label{class_pupil_detect_a09f63f95f480233d90a648e0a61c8abb}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!get\+Original\+Image@{get\+Original\+Image}}
+\index{get\+Original\+Image@{get\+Original\+Image}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{get\+Original\+Image()}{getOriginalImage()}}
+{\footnotesize\ttfamily cv\+::\+Mat Pupil\+Detect\+::get\+Original\+Image (\begin{DoxyParamCaption}\item[{cv\+::\+Video\+Capture}]{cap }\end{DoxyParamCaption})}
+
+Reads the image from camera \mbox{\Hypertarget{class_pupil_detect_af770df91c51d99bdd1a282e8b9fb6f1b}\label{class_pupil_detect_af770df91c51d99bdd1a282e8b9fb6f1b}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!get\+Processed\+Frame@{get\+Processed\+Frame}}
+\index{get\+Processed\+Frame@{get\+Processed\+Frame}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{get\+Processed\+Frame()}{getProcessedFrame()}}
+{\footnotesize\ttfamily cv\+::\+Mat Pupil\+Detect\+::get\+Processed\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a frame after a pupil has been found \mbox{\Hypertarget{class_pupil_detect_a95abbcaf36e31ea938ffdbc3402a481a}\label{class_pupil_detect_a95abbcaf36e31ea938ffdbc3402a481a}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!get\+Pupil\+Position@{get\+Pupil\+Position}}
+\index{get\+Pupil\+Position@{get\+Pupil\+Position}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{get\+Pupil\+Position()}{getPupilPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pupil_position}{Pupil\+Position}} Pupil\+Detect\+::get\+Pupil\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns current coordinates of the pupil \mbox{\Hypertarget{class_pupil_detect_aef0256a07774377932e949f2ba460fde}\label{class_pupil_detect_aef0256a07774377932e949f2ba460fde}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!init\+Calibration@{init\+Calibration}}
+\index{init\+Calibration@{init\+Calibration}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{init\+Calibration()}{initCalibration()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::init\+Calibration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Determines if the program is in calibration phase \mbox{\Hypertarget{class_pupil_detect_a22dc3e6f1496e1f0a79c61433f062cf0}\label{class_pupil_detect_a22dc3e6f1496e1f0a79c61433f062cf0}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!set\+Coordinates@{set\+Coordinates}}
+\index{set\+Coordinates@{set\+Coordinates}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{set\+Coordinates()}{setCoordinates()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::set\+Coordinates (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+Gets the pupil cordinates from calibration form and stores them id is the identifiers of a calibration point or a button \mbox{\Hypertarget{class_pupil_detect_a38b91dc58b1a408e7ca081dac2c208bb}\label{class_pupil_detect_a38b91dc58b1a408e7ca081dac2c208bb}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!set\+Max\+Area@{set\+Max\+Area}}
+\index{set\+Max\+Area@{set\+Max\+Area}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{set\+Max\+Area()}{setMaxArea()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::set\+Max\+Area (\begin{DoxyParamCaption}\item[{int}]{max\+Area\+In }\end{DoxyParamCaption})}
+
+Gets new value from maximum area slider in the main G\+UI 
+\begin{DoxyParams}{Parameters}
+{\em max\+Area\+In} & The value that is to set as maximum \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pupil_detect_aa933cccabd0866e4fa1aee000532cb29}\label{class_pupil_detect_aa933cccabd0866e4fa1aee000532cb29}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!set\+Min\+Area@{set\+Min\+Area}}
+\index{set\+Min\+Area@{set\+Min\+Area}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{set\+Min\+Area()}{setMinArea()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::set\+Min\+Area (\begin{DoxyParamCaption}\item[{int}]{min\+Area\+In }\end{DoxyParamCaption})}
+
+Gets new value from minimum area slider in the main G\+UI 
+\begin{DoxyParams}{Parameters}
+{\em min\+Area\+In} & The value that is to set as maximum \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pupil_detect_a116fb58487a120ee59642c6e97d77134}\label{class_pupil_detect_a116fb58487a120ee59642c6e97d77134}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!set\+Threshold@{set\+Threshold}}
+\index{set\+Threshold@{set\+Threshold}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{set\+Threshold()}{setThreshold()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::set\+Threshold (\begin{DoxyParamCaption}\item[{int}]{threshold\+In }\end{DoxyParamCaption})}
+
+Gets new value from threshold slider in the main G\+UI \mbox{\Hypertarget{class_pupil_detect_a59eaecc4b0dfb1c380d3c5d5ebf806f0}\label{class_pupil_detect_a59eaecc4b0dfb1c380d3c5d5ebf806f0}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!set\+Video\+Status@{set\+Video\+Status}}
+\index{set\+Video\+Status@{set\+Video\+Status}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{set\+Video\+Status()}{setVideoStatus()}}
+{\footnotesize\ttfamily void Pupil\+Detect\+::set\+Video\+Status (\begin{DoxyParamCaption}\item[{bool}]{play\+In }\end{DoxyParamCaption})}
+
+Stops video capture when the main program has been stopped 
+\begin{DoxyParams}{Parameters}
+{\em play\+In} & A boolean to decide if video should play or not \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_pupil_detect_a28325d88d52b09e78d25f17b3d898aeb}\label{class_pupil_detect_a28325d88d52b09e78d25f17b3d898aeb}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!contours@{contours}}
+\index{contours@{contours}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{contours}{contours}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$cv\+::\+Point$>$ $>$ Pupil\+Detect\+::contours\hspace{0.3cm}{\ttfamily [private]}}
+
+1D vector which contains all the contours in a threshold frame \mbox{\Hypertarget{class_pupil_detect_a6fc0c70df2b083d7c24be0a4dff9d7a5}\label{class_pupil_detect_a6fc0c70df2b083d7c24be0a4dff9d7a5}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!counter@{counter}}
+\index{counter@{counter}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{counter}{counter}}
+{\footnotesize\ttfamily int Pupil\+Detect\+::counter\hspace{0.3cm}{\ttfamily [private]}}
+
+Counts number of points that are aready calibrated \mbox{\Hypertarget{class_pupil_detect_a2573a2415b451c876ab47a0ef016ec18}\label{class_pupil_detect_a2573a2415b451c876ab47a0ef016ec18}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!current\+Frame@{current\+Frame}}
+\index{current\+Frame@{current\+Frame}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{current\+Frame}{currentFrame}}
+{\footnotesize\ttfamily cv\+::\+Mat Pupil\+Detect\+::current\+Frame\hspace{0.3cm}{\ttfamily [private]}}
+
+Current frame that is being processed \mbox{\Hypertarget{class_pupil_detect_aee60f1bd292f20e41057139483c9d940}\label{class_pupil_detect_aee60f1bd292f20e41057139483c9d940}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!eye@{eye}}
+\index{eye@{eye}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{eye}{eye}}
+{\footnotesize\ttfamily std\+::vector$<$cv\+::\+Rect$>$ Pupil\+Detect\+::eye\hspace{0.3cm}{\ttfamily [private]}}
+
+1D vector of rectangles where eye can be potentially found \mbox{\Hypertarget{class_pupil_detect_ad4192b7bc071abfed746e463f383b866}\label{class_pupil_detect_ad4192b7bc071abfed746e463f383b866}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!is\+Calibrating@{is\+Calibrating}}
+\index{is\+Calibrating@{is\+Calibrating}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{is\+Calibrating}{isCalibrating}}
+{\footnotesize\ttfamily bool Pupil\+Detect\+::is\+Calibrating\hspace{0.3cm}{\ttfamily [private]}}
+
+Defines if the user is calibrating or not \mbox{\Hypertarget{class_pupil_detect_a04fb7c5b3619d86b2f34ca90b56935e6}\label{class_pupil_detect_a04fb7c5b3619d86b2f34ca90b56935e6}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!max\+Area@{max\+Area}}
+\index{max\+Area@{max\+Area}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{max\+Area}{maxArea}}
+{\footnotesize\ttfamily int Pupil\+Detect\+::max\+Area\hspace{0.3cm}{\ttfamily [private]}}
+
+Variable maximum logical area for a contour to be a pupil \mbox{\Hypertarget{class_pupil_detect_ad1aa1a502f314a9dbdcfbb784cf14944}\label{class_pupil_detect_ad1aa1a502f314a9dbdcfbb784cf14944}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!min\+Area@{min\+Area}}
+\index{min\+Area@{min\+Area}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{min\+Area}{minArea}}
+{\footnotesize\ttfamily int Pupil\+Detect\+::min\+Area\hspace{0.3cm}{\ttfamily [private]}}
+
+Variable minimum logical area for a contour to be a pupil \mbox{\Hypertarget{class_pupil_detect_af956995e72f4c348ae4056aba2112e2b}\label{class_pupil_detect_af956995e72f4c348ae4056aba2112e2b}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!play@{play}}
+\index{play@{play}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{play}{play}}
+{\footnotesize\ttfamily bool Pupil\+Detect\+::play\hspace{0.3cm}{\ttfamily [private]}}
+
+This is used to play or pause the video from camera \mbox{\Hypertarget{class_pupil_detect_ad2b693a118fb991ea45cb8fb83dd0f63}\label{class_pupil_detect_ad2b693a118fb991ea45cb8fb83dd0f63}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!threshold\+Frame@{threshold\+Frame}}
+\index{threshold\+Frame@{threshold\+Frame}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{threshold\+Frame}{thresholdFrame}}
+{\footnotesize\ttfamily cv\+::\+Mat Pupil\+Detect\+::threshold\+Frame\hspace{0.3cm}{\ttfamily [private]}}
+
+Current frame after applying threshold \mbox{\Hypertarget{class_pupil_detect_a0a13ac6ad9894befc3da11ef02add74f}\label{class_pupil_detect_a0a13ac6ad9894befc3da11ef02add74f}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!threshold\+Intensity@{threshold\+Intensity}}
+\index{threshold\+Intensity@{threshold\+Intensity}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{threshold\+Intensity}{thresholdIntensity}}
+{\footnotesize\ttfamily int Pupil\+Detect\+::threshold\+Intensity\hspace{0.3cm}{\ttfamily [private]}}
+
+Variable intensity for a camera frame \mbox{\Hypertarget{class_pupil_detect_a2649d7093083c33607bd412707773a51}\label{class_pupil_detect_a2649d7093083c33607bd412707773a51}} 
+\index{Pupil\+Detect@{Pupil\+Detect}!to\+Delay@{to\+Delay}}
+\index{to\+Delay@{to\+Delay}!Pupil\+Detect@{Pupil\+Detect}}
+\subsubsection{\texorpdfstring{to\+Delay}{toDelay}}
+{\footnotesize\ttfamily double Pupil\+Detect\+::to\+Delay\hspace{0.3cm}{\ttfamily [private]}}
+
+Delay input from user to avoid quick presses of a button 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Gaze\+Track\+G\+U\+I/Pupil\+Detect.\+h\item 
+F\+:/\+Gaze\+Track\+G\+U\+I/Pupil\+Detect.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,192 @@
+Mouse 378, 	240.	 Target: 240,	 105.	 Distance :193
+Mouse 154, 	224.	 Target: 41,	 107.	 Distance :162
+Mouse 714, 	704.	 Target: 574,	 580.	 Distance :187
+Mouse 1888, 	192.	 Target: 1889,	 604.	 Distance :412
+Mouse 1919, 	324.	 Target: 1878,	 198.	 Distance :132
+Mouse 0, 	880.	 Target: 82,	 704.	 Distance :194
+Mouse 1904, 	0.	 Target: 1865,	 65.	 Distance :75
+Mouse 490, 	800.	 Target: 241,	 627.	 Distance :303
+Mouse 392, 	624.	 Target: 361,	 491.	 Distance :136
+Mouse 992, 	168.	 Target: 1075,	 62.	 Distance :134
+--------------------------------------------------------------------------------------
+Mouse 0, 	0.	 Target: 240,	 105.	 Distance :261
+Mouse 0, 	0.	 Target: 41,	 107.	 Distance :114
+Mouse 0, 	0.	 Target: 574,	 580.	 Distance :816
+Mouse 0, 	0.	 Target: 1889,	 604.	 Distance :1983
+Mouse 0, 	0.	 Target: 1878,	 198.	 Distance :1888
+Mouse 1316, 	3.	 Target: 82,	 704.	 Distance :1419
+Mouse 1818, 	81.	 Target: 1865,	 65.	 Distance :49
+Mouse 258, 	648.	 Target: 241,	 627.	 Distance :27
+Mouse 386, 	509.	 Target: 361,	 491.	 Distance :30
+Mouse 1099, 	83.	 Target: 1075,	 62.	 Distance :31
+--------------------------------------------------------------------------------------
+Mouse 336, 	216.	 Target: 240,	 105.	 Distance :146
+Mouse 96, 	12.	 Target: 41,	 107.	 Distance :109
+Mouse 576, 	624.	 Target: 574,	 580.	 Distance :44
+Mouse 1919, 	0.	 Target: 1889,	 604.	 Distance :604
+Mouse 1919, 	1079.	 Target: 1878,	 198.	 Distance :881
+Mouse 0, 	0.	 Target: 82,	 704.	 Distance :708
+Mouse 0, 	432.	 Target: 1865,	 65.	 Distance :1900
+Mouse 1919, 	0.	 Target: 241,	 627.	 Distance :1791
+Mouse 392, 	480.	 Target: 361,	 491.	 Distance :32
+Mouse 1360, 	0.	 Target: 1075,	 62.	 Distance :291
+--------------------------------------------------------------------------------------
+Mouse 336, 	168.	 Target: 240,	 105.	 Distance :114
+Mouse 84, 	192.	 Target: 41,	 107.	 Distance :95
+Mouse 588, 	672.	 Target: 574,	 580.	 Distance :93
+Mouse 1919, 	0.	 Target: 1889,	 604.	 Distance :604
+Mouse 1919, 	0.	 Target: 1878,	 198.	 Distance :202
+Mouse 252, 	744.	 Target: 82,	 704.	 Distance :174
+Mouse 1919, 	0.	 Target: 1865,	 65.	 Distance :84
+Mouse 378, 	624.	 Target: 241,	 627.	 Distance :137
+Mouse 490, 	600.	 Target: 361,	 491.	 Distance :168
+Mouse 1000, 	132.	 Target: 1075,	 62.	 Distance :102
+--------------------------------------------------------------------------------------
+Mouse 228, 	138.	 Target: 240,	 105.	 Distance :35
+Mouse 108, 	144.	 Target: 41,	 107.	 Distance :76
+Mouse 0, 	576.	 Target: 574,	 580.	 Distance :574
+Mouse 1656, 	720.	 Target: 1889,	 604.	 Distance :260
+Mouse 1656, 	720.	 Target: 1878,	 198.	 Distance :567
+Mouse 0, 	594.	 Target: 82,	 704.	 Distance :137
+Mouse 492, 	0.	 Target: 1865,	 65.	 Distance :1374
+Mouse 132, 	174.	 Target: 241,	 627.	 Distance :465
+Mouse 1668, 	708.	 Target: 361,	 491.	 Distance :1324
+Mouse 252, 	0.	 Target: 1075,	 62.	 Distance :825
+--------------------------------------------------------------------------------------
+Mouse 288, 	176.	 Target: 240,	 105.	 Distance :85
+Mouse 156, 	66.	 Target: 41,	 107.	 Distance :122
+Mouse 540, 	680.	 Target: 574,	 580.	 Distance :105
+Mouse 1919, 	0.	 Target: 1889,	 604.	 Distance :604
+Mouse 730, 	0.	 Target: 1878,	 198.	 Distance :1164
+Mouse 348, 	704.	 Target: 82,	 704.	 Distance :266
+Mouse 1890, 	0.	 Target: 1865,	 65.	 Distance :69
+Mouse 336, 	506.	 Target: 241,	 627.	 Distance :153
+Mouse 396, 	484.	 Target: 361,	 491.	 Distance :35
+Mouse 1020, 	180.	 Target: 1075,	 62.	 Distance :130
+--------------------------------------------------------------------------------------
+Mouse 120, 	108.	 Target: 240,	 105.	 Distance :120
+Mouse 144, 	108.	 Target: 41,	 107.	 Distance :103
+Mouse 600, 	720.	 Target: 574,	 580.	 Distance :142
+Mouse 1752, 	672.	 Target: 1889,	 604.	 Distance :152
+Mouse 1824, 	224.	 Target: 1878,	 198.	 Distance :59
+Mouse 48, 	648.	 Target: 82,	 704.	 Distance :65
+Mouse 1728, 	96.	 Target: 1865,	 65.	 Distance :140
+Mouse 336, 	648.	 Target: 241,	 627.	 Distance :97
+Mouse 456, 	504.	 Target: 361,	 491.	 Distance :95
+Mouse 1104, 	64.	 Target: 1075,	 62.	 Distance :29
+--------------------------------------------------------------------------------------
+Mouse 300, 	96.	 Target: 240,	 105.	 Distance :60
+Mouse 96, 	84.	 Target: 41,	 107.	 Distance :59
+Mouse 600, 	576.	 Target: 574,	 580.	 Distance :26
+Mouse 0, 	0.	 Target: 1889,	 604.	 Distance :1983
+Mouse 1919, 	1008.	 Target: 1878,	 198.	 Distance :811
+Mouse 0, 	0.	 Target: 82,	 704.	 Distance :708
+Mouse 1700, 	264.	 Target: 1865,	 65.	 Distance :258
+Mouse 0, 	0.	 Target: 241,	 627.	 Distance :671
+Mouse 0, 	0.	 Target: 361,	 491.	 Distance :609
+Mouse 0, 	0.	 Target: 1075,	 62.	 Distance :1076
+--------------------------------------------------------------------------------------
+Mouse 300, 	72.	 Target: 240,	 105.	 Distance :68
+Mouse 100, 	96.	 Target: 41,	 107.	 Distance :60
+Mouse 620, 	696.	 Target: 574,	 580.	 Distance :124
+Mouse 1820, 	672.	 Target: 1889,	 604.	 Distance :96
+Mouse 1880, 	240.	 Target: 1878,	 198.	 Distance :42
+Mouse 260, 	528.	 Target: 82,	 704.	 Distance :250
+Mouse 1919, 	120.	 Target: 1865,	 65.	 Distance :77
+Mouse 280, 	528.	 Target: 241,	 627.	 Distance :106
+Mouse 360, 	456.	 Target: 361,	 491.	 Distance :35
+Mouse 1120, 	24.	 Target: 1075,	 62.	 Distance :58
+--------------------------------------------------------------------------------------
+Mouse 280, 	140.	 Target: 240,	 105.	 Distance :53
+Mouse 0, 	140.	 Target: 41,	 107.	 Distance :52
+Mouse 580, 	644.	 Target: 574,	 580.	 Distance :64
+Mouse 1880, 	728.	 Target: 1889,	 604.	 Distance :124
+Mouse 1840, 	224.	 Target: 1878,	 198.	 Distance :46
+Mouse 180, 	644.	 Target: 82,	 704.	 Distance :114
+Mouse 1740, 	112.	 Target: 1865,	 65.	 Distance :133
+Mouse 400, 	560.	 Target: 241,	 627.	 Distance :172
+Mouse 420, 	532.	 Target: 361,	 491.	 Distance :71
+Mouse 1160, 	56.	 Target: 1075,	 62.	 Distance :85
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Mouse 971, 	148.	 Target: 240,	 105.	 Distance :732
+Mouse 62, 	117.	 Target: 41,	 107.	 Distance :23
+Mouse 614, 	607.	 Target: 574,	 580.	 Distance :48
+Mouse 1888, 	609.	 Target: 1889,	 604.	 Distance :5
+Mouse 1879, 	202.	 Target: 1878,	 198.	 Distance :4
+Mouse 117, 	744.	 Target: 82,	 704.	 Distance :53
+Mouse 1280, 	44.	 Target: 1865,	 65.	 Distance :585
+Mouse 820, 	244.	 Target: 241,	 627.	 Distance :694
+Mouse 375, 	531.	 Target: 361,	 491.	 Distance :42
+Mouse 1107, 	84.	 Target: 1075,	 62.	 Distance :38
+--------------------------------------------------------------------------------------
+Mouse 339, 	174.	 Target: 240,	 105.	 Distance :120
+Mouse 1850, 	28.	 Target: 41,	 107.	 Distance :1810
+--------------------------------------------------------------------------------------
+Mouse 899, 	334.	 Target: 240,	 105.	 Distance :697
+Mouse 406, 	670.	 Target: 41,	 107.	 Distance :670
+Mouse 898, 	381.	 Target: 574,	 580.	 Distance :380
+Mouse 1847, 	21.	 Target: 1889,	 604.	 Distance :584
+--------------------------------------------------------------------------------------
+Mouse 634, 	68.	 Target: 1878,	 198.	 Distance :1250
+Mouse 277, 	190.	 Target: 240,	 105.	 Distance :92
+Mouse 1870, 	30.	 Target: 41,	 107.	 Distance :1830
+--------------------------------------------------------------------------------------
+Mouse 1211, 	14.	 Target: 240,	 105.	 Distance :975
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Mouse 240, 	140.	 Target: 240,	 105.	 Distance :35
+Mouse 48, 	180.	 Target: 41,	 107.	 Distance :73
+Mouse 608, 	640.	 Target: 574,	 580.	 Distance :68
+Mouse 1600, 	900.	 Target: 1889,	 604.	 Distance :413
+Mouse 1616, 	320.	 Target: 1878,	 198.	 Distance :289
+Mouse 352, 	820.	 Target: 82,	 704.	 Distance :293
+Mouse 1792, 	160.	 Target: 1865,	 65.	 Distance :119
+Mouse 336, 	560.	 Target: 241,	 627.	 Distance :116
+Mouse 464, 	460.	 Target: 361,	 491.	 Distance :107
+Mouse 1072, 	120.	 Target: 1075,	 62.	 Distance :58
+--------------------------------------------------------------------------------------
+Mouse 420, 	64.	 Target: 240,	 105.	 Distance :184
+Mouse 0, 	0.	 Target: 41,	 107.	 Distance :114
+Mouse 1876, 	1079.	 Target: 574,	 580.	 Distance :1394
+Mouse 812, 	576.	 Target: 1889,	 604.	 Distance :1077
+Mouse 1919, 	0.	 Target: 1878,	 198.	 Distance :202
+Mouse 0, 	0.	 Target: 82,	 704.	 Distance :708
+Mouse 1919, 	0.	 Target: 1865,	 65.	 Distance :84
+Mouse 644, 	672.	 Target: 241,	 627.	 Distance :405
+Mouse 448, 	128.	 Target: 361,	 491.	 Distance :373
+Mouse 1036, 	32.	 Target: 1075,	 62.	 Distance :49
+--------------------------------------------------------------------------------------
+Mouse 260, 	144.	 Target: 240,	 105.	 Distance :43
+Mouse 0, 	216.	 Target: 41,	 107.	 Distance :116
+Mouse 620, 	672.	 Target: 574,	 580.	 Distance :102
+Mouse 1919, 	0.	 Target: 1889,	 604.	 Distance :604
+Mouse 1740, 	336.	 Target: 1878,	 198.	 Distance :195
+Mouse 96, 	816.	 Target: 82,	 704.	 Distance :112
+Mouse 1780, 	168.	 Target: 1865,	 65.	 Distance :133
+Mouse 240, 	672.	 Target: 241,	 627.	 Distance :45
+Mouse 144, 	600.	 Target: 361,	 491.	 Distance :242
+Mouse 1040, 	96.	 Target: 1075,	 62.	 Distance :48
+--------------------------------------------------------------------------------------
+Mouse 392, 	0.	 Target: 240,	 105.	 Distance :184
+Mouse 112, 	308.	 Target: 41,	 107.	 Distance :213
+Mouse 448, 	748.	 Target: 574,	 580.	 Distance :210
+Mouse 1919, 	0.	 Target: 1889,	 604.	 Distance :604
+Mouse 1660, 	0.	 Target: 1878,	 198.	 Distance :294
+Mouse 0, 	0.	 Target: 82,	 704.	 Distance :708
+Mouse 756, 	1079.	 Target: 1865,	 65.	 Distance :1502
+Mouse 476, 	968.	 Target: 241,	 627.	 Distance :414
+Mouse 448, 	440.	 Target: 361,	 491.	 Distance :100
+Mouse 1428, 	0.	 Target: 1075,	 62.	 Distance :358
+--------------------------------------------------------------------------------------
+Mouse 192, 	84.	 Target: 240,	 105.	 Distance :52
+Mouse 168, 	140.	 Target: 41,	 107.	 Distance :131
+Mouse 624, 	644.	 Target: 574,	 580.	 Distance :81
+Mouse 1880, 	700.	 Target: 1889,	 604.	 Distance :96
+Mouse 1800, 	168.	 Target: 1878,	 198.	 Distance :83
+Mouse 144, 	700.	 Target: 82,	 704.	 Distance :62
+Mouse 1919, 	112.	 Target: 1865,	 65.	 Distance :71
+Mouse 264, 	644.	 Target: 241,	 627.	 Distance :28
+Mouse 480, 	588.	 Target: 361,	 491.	 Distance :153
+Mouse 1180, 	112.	 Target: 1075,	 62.	 Distance :116
+--------------------------------------------------------------------------------------
